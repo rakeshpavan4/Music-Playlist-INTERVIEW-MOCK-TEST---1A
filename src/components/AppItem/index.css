@@ -1,0 +1,29 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.image {
+  height: 100px;
+  margin-right: 5px;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
